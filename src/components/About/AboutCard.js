@@ -12,7 +12,7 @@ function AboutCard() {
            Bonjour à tous, je suis <span className="purple"> Aya Amir </span>
             {/* from <span className="purple"> Bhubaneswar, India.</span> */}
             <br />
-            développeur fullstack et étudiant en 2e année de développement digital.         
+            développeur fullstack.         
        
            Je suis passionné par le développement web et mobile, avec une expertise en Laravel, React, 
            et la création de projets uniques qui allient créativité et technologie. 

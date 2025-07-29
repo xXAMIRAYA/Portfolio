@@ -35,7 +35,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              uand c’est possible, j’applique également ma passion pour le développement avec
+              Quand c’est possible, j’applique également ma passion pour le développement avec
                <b className="purple"> Laravel </b> et
               <i>
                 <b className="purple">
@@ -45,7 +45,7 @@ function Home2() {
               </i>
               &nbsp;
               <i>
-                <b className="purple"> React.js</b>
+                <b className="purple"> React.js , Typescript</b>
               </i>
             </p>
           </Col>
@@ -61,7 +61,8 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/xAMIRAYA"
+                  // href="https://github.com/xAMIRAYA"
+                  href="https://github.com/xXAMIRAYA"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

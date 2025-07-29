@@ -18,7 +18,10 @@ import {
   SiFirebase,
   SiNextdotjs,
   SiSolidity,
-  SiPostgresql,SiHtml5, SiCss3, SiDocker
+  SiPostgresql,SiHtml5, SiCss3, SiDocker,
+  SiTypescript,
+  SiPython,
+  SiBootstrap
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -62,6 +65,15 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNextdotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiBootstrap />
       </Col>
     </Row>
   );

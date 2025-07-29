@@ -3,8 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import editor from "../../Assets/Projects/bank.png";
+import main from "../../Assets/Projects/mainsolidaire.jpg";
 import chatify from "../../Assets/Projects/abt.png";
-import bitsOfCode from "../../Assets/Projects/copains.png";
+// import bitsOfCode from "../../Assets/Projects/copains.png";
+import hackathon from "../../Assets/Projects/hackathon.png";
+import job from "../../Assets/Projects/job.png";
 
 function Projects() {
   return (
@@ -28,7 +31,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
@@ -37,7 +40,7 @@ function Projects() {
               Ce projet ma permis dexplorer le travail en équipe sous pression et dappliquer des solutions innovantes en développement fullstack."
               ghLink="#"
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -46,6 +49,40 @@ function Projects() {
               title="Gestion Bancaire"
               description="Cette application bancaire a été développée pour offrir une gestion simple et intuitive des comptes clients.
               elle met l'accent sur la sécurité des données et la fluidité de l'expérience utilisateur. Ce projet illustre mes compétences en développement backend et en conception de bases de données relationnelles."
+              ghLink="https://github.com/xXAMIRAYA/Banking_App"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={main}
+              isBlog={false}
+              title="Gestion des Donation"
+              description="Développement d’une application web complète pour la gestion des dons (argent, matériel, bénévolat). 
+              Elle intègre un tableau de bord dynamique pour les administrateurs, un système de validation des dons, un module de messagerie entre donateurs et responsables de campagnes, et des politiques de sécurité avancées via Supabase.
+
+"
+              ghLink="https://github.com/xXAMIRAYA/PSynthese"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hackathon}
+              isBlog={false}
+              title="application des Reservations"
+              description="Conception d’une application innovante de réservation en ligne réalisée lors d’un hackathon, 
+              intégrant l’authentification sécurisée par QR Code. Elle permet de réserver facilement des services/événements et d’assurer un accès rapide et fiable grâce au scan du code.
+
+"
+              ghLink="https://github.com/xXAMIRAYA/Hackathon2025"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={job}
+              isBlog={false}
+              title="Plateforme d’offres d’emploi"
+              description="Développement d’une application web moderne permettant l’affichage et la consultation des offres d’emploi. Elle offre une interface simple et intuitive,
+               avec la possibilité de filtrer et rechercher les annonces selon les préférences des utilisateurs."
               ghLink="#"
             />
           </Col>
